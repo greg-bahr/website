@@ -7,6 +7,8 @@ keywords = ""
 copyright = ""
 readOtherPosts = "Read other posts"
 
+googleAnalytics = "UA-140118245-1"
+
 [params.logo]
     logoText = "greg's land"
     logoHomeLink = "/"
