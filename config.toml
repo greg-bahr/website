@@ -1,0 +1,61 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+title = "Greg Bahr"
+keywords = ""
+copyright = ""
+readOtherPosts = "Read other posts"
+
+[params.logo]
+    logoText = "greg's land"
+    logoHomeLink = "/"
+
+[author]
+    name = "Greg Bahr"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  homeSubtitle = "big ol nerd"
+
+  # Metadata mostly used in document's head
+  description = "greg bahr's website"
+  keywords = "homepage, blog, science, robotics, computers, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/greg-bahr"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:gregsbahr@gmail.com"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/grefory_/"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/greg-bahr-523764142/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/blogs"
