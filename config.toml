@@ -10,7 +10,7 @@ readOtherPosts = "Read other posts"
 googleAnalytics = "UA-140118245-1"
 
 [params.logo]
-    logoText = "greg's land"
+    logoText = "cd  ~/greg's land"
     logoHomeLink = "/"
 
 [author]
@@ -21,8 +21,6 @@ googleAnalytics = "UA-140118245-1"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-
-  homeSubtitle = "big ol nerd"
 
   # Metadata mostly used in document's head
   description = "greg bahr's website"
